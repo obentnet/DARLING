@@ -1,0 +1,178 @@
+::-webkit-scrollbar {
+	width:8px;
+	height:8px
+}
+::-webkit-scrollbar-thumb {
+	background:#6f9fc7;
+}
+::-webkit-scrollbar-thumb:hover {
+	background:rgb(123,220,240);
+}
+
+html{
+    height: 100%;
+    display: block;
+}
+body{
+    box-sizing: border-box;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: rgb(44, 44, 50);
+    background-image: url(./images/bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    padding: 15px 30px;
+}
+.header-title{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.simple-a{
+    color: white;
+    text-decoration: none;
+}
+.message-container {
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0px 30%;
+    align-content: center;
+    flex-direction: column;
+}
+
+article{
+    margin-bottom: 1%;
+}
+article>p{
+    font-size: 20px;
+    margin:0;
+}
+.post-link{
+    color:white;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.categroy-a-link-index>a{
+    color:white;
+    text-decoration: none;
+    transition: all .3s;
+}
+.categroy-a-link-index>a:hover{
+    color: rgb(123,220,240);
+}
+.categroy-a-link>a{
+    color:black;
+    text-decoration: none;
+    transition: all .3s;
+}
+.categroy-a-link>a:hover{
+    color: rgb(123,220,240);
+}
+.post-link:hover{
+    color: rgb(123,220,240);
+}
+footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+/** post **/
+.article-main{
+    padding: 2%;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 2% 30%;
+}
+.article-main>p>a{
+    color: #FF4081;
+    text-decoration: none;
+    transition: all .3s;
+}
+.article-main>p>a:hover{
+    color: rgb(123, 220,240);
+}
+.article-main>p>img{
+    width: 100%;
+}
+.post-info>h1{
+    margin:0;
+    border-bottom: solid 2px rgb(123,220,240);
+    overflow: hidden;
+}
+
+/** comments **/
+.comments{
+    color:black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 0 30%;
+    margin-bottom: 2%;
+}
+.fn>a,.comment-meta>a,.comment-reply>a{
+    color:black;
+    text-decoration: none;
+    transition: all .3s;
+}
+.fn>a,.comment-meta>:hover{
+    color: rgb(123,220,240);
+}
+
+
+/** repeat comments **/
+.repeat-comments{
+    color:black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 0 30%;
+    margin-bottom: 2%;
+}
+
+/** copyright **/
+.copy-info{
+    color:black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1% 0 1% 2%;
+    margin: 0 30% 2% 30%;
+}
+
+/** Mobile **/
+@media screen and (max-width: 768px){
+   body{
+        background-attachment: fixed;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-image: url(./images/bg-mobile.png);
+   }
+   .message-container{
+       margin:0;
+   }
+   .article-main{
+       margin: 0;
+   }
+   .copy-info{
+       margin: 2% 0 0 0 ;
+   }
+   .comments{
+       margin: 2% 0 0 0;
+   }
+   .repeat-comments{
+       margin:2% 0 2% 0;
+   }
+   p>textarea{
+       width: 95%;
+   }
+}

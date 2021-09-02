@@ -1,0 +1,21 @@
+/**
+* Design By 狱杰1Jnver
+* Link: https://yujienb.cn/
+* Suport Theme: DARLING
+* Version: 1.0.0
+*/
+
+/** 组件 **/
+.zero-a{
+    color: #FF4081;
+    text-decoration: none;
+    transition: all .3s;
+}
+.zero-a:hover{
+    color: rgb(123, 220,240);
+}
+
+blockquote{
+    padding-left: 1%;
+    background-color: #36373c40;
+}
