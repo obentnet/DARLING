@@ -19,10 +19,9 @@
     <?php else:?>
     <link rel="shortcut icon" href="<?php $this->options->themeUrl('favicon.ico')?>" type="image/x-icon">
     <?php endif;?>
-    <script src="<?php $this->options->themeUrl('DARLING.js')?>"></script>
     <?php $this->header(); ?>
 </head>
-<body>
+<body id="body">
     <header>
         <a class="header-title" href="/"><?php $this->options->title(); ?> </a>| <?php $this->options->description() ?>
         <nav>
