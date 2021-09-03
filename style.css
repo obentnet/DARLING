@@ -151,6 +151,15 @@ footer{
     margin-bottom: 2%;
 }
 
+.respond>form>p>a{
+    color:black;
+    text-decoration: none;
+}
+p>label{
+    
+}
+
+
 /** copyright **/
 .copy-info{
     color:black;
