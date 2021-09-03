@@ -1,7 +1,5 @@
 # DARLING
-![img](https://cdn.jsdelivr.net/gh/obentnet/DARLING@1.0.0/images/bg.png)
-一个十分简洁,十分简陋的Typecho主题
-
+![img](https://cdn.jsdelivr.net/gh/obentnet/DARLING@1.0.1/images/theme-logo.png)
 ## 使用
 1.请前往[releases](https://github.com/obentnet/DARLING/releases/)页面下载最新发行版，确保问题比较少。
 2.上传主题到主题文件夹内。
