@@ -1,6 +1,7 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit;?>
     <footer>
-        &copy;2016 - 2021 狱杰博客
+        <div class="copy" id="copyright"></div>
     </footer>
+    <script src="<?php $this->options->themeUrl('DARLING.js')?>"></script>
 </body>
 </html>
