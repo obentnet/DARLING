@@ -3,7 +3,7 @@
 ?>
 
     <?php $this->comments()->to($comments); ?>
-    <div class="comments">
+    <div class="comments zero-shadow">
         <?php if ($comments->have()): ?>
         <h3><?php $this->commentsNum(_t('暂无评论'), _t('仅有一条评论'), _t('已有 %d 条评论')); ?></h3>
         <?php $comments->listComments(); ?>
@@ -14,7 +14,7 @@
     <?php endif; ?>
     </div>
 
-    <div class="repeat-comments">
+    <div class="repeat-comments zero-shadow">
         <!-- 判断设置是否允许对当前文章进行评论 -->
         <?php if($this->allow('comment')): ?>
             <div id="<?php $this->respondId(); ?>" class="respond">
@@ -32,23 +32,23 @@
         <!-- 若当前用户未登录 -->
                     <?php else: ?>
         <!-- 要求输入名字、邮箱、网址 -->
-                    <p>
+                    <p style="float:left;">
                         <label for="author" class="required"><?php _e('称呼'); ?></label>
                         <input type="text" name="author" id="author" class="text" value="<?php $this->remember('author'); ?>" required />
                     </p>
-                    <p>
-                        <label for="mail"<?php if ($this->options->commentsRequireMail): ?> class="required"<?php endif; ?>><?php _e('Email'); ?></label>
+                    <p style="float:left;">
+                        <label for="mail"<?php if ($this->options->commentsRequireMail): ?> class="required"<?php endif; ?>><?php _e('&nbsp;Email '); ?></label>
                         <input type="email" name="mail" id="mail" class="text" value="<?php $this->remember('mail'); ?>"<?php if ($this->options->commentsRequireMail): ?> required<?php endif; ?> />
                     </p>
-                    <p>
-                        <label for="url"<?php if ($this->options->commentsRequireURL): ?> class="required"<?php endif; ?>><?php _e('网站'); ?></label>
+                    <p style="float:left;">
+                        <label for="url"<?php if ($this->options->commentsRequireURL): ?> class="required"<?php endif; ?>><?php _e('&nbsp;网站'); ?></label>
                         <input type="url" name="url" id="url" class="text" placeholder="<?php _e('http://'); ?>" value="<?php $this->remember('url'); ?>"<?php if ($this->options->commentsRequireURL): ?> required<?php endif; ?> />
                     </p>
                     <?php endif; ?>
         <!-- 输入要回复的内容 -->
                     <p>
                         <!-- <label for="textarea" class="required"><?php _e('内容'); ?></label> -->
-                        <textarea rows="8" cols="50" name="text" id="textarea" class="textarea" required ><?php $this->remember('text'); ?></textarea>
+                        <textarea rows="8" cols="50" name="text" id="textarea" class="textarea" required style="width:100%;"><?php $this->remember('text'); ?></textarea>
                     </p>
                     <p>
                         <button type="submit" class="submit"><?php _e('提交评论'); ?></button>
