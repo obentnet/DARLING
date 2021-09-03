@@ -58,6 +58,17 @@ article>p{
     text-decoration: none;
     transition: all .3s;
 }
+.page-num-link{
+    margin-top: 2%;
+}
+.page-num-link>a{
+    color:white;
+    text-decoration: none;
+    transition: all .3s;
+}
+.page-num-link>a:hover{
+    color: rgb(123,220,240);
+}
 
 .categroy-a-link-index>a{
     color:white;
