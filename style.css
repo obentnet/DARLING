@@ -1,3 +1,4 @@
+@charset "UTF-8";
 ::-webkit-scrollbar {
 	width:8px;
 	height:8px
@@ -12,6 +13,7 @@
 html{
     height: 100%;
     display: block;
+    font:16px/1.5 'Microsoft Yahei','PingFang SC','Hiragino Sans GB',sans-serif
 }
 body{
     box-sizing: border-box;
@@ -45,11 +47,11 @@ body{
     align-content: center;
     flex-direction: column;
 }
-
 article{
     margin-bottom: 1%;
+    transition: all .1s;
 }
-article>p{
+.article-info>p{
     font-size: 20px;
     margin:0;
 }
@@ -150,16 +152,10 @@ footer{
     margin: 0 30%;
     margin-bottom: 2%;
 }
-
 .respond>form>p>a{
     color:black;
     text-decoration: none;
 }
-p>label{
-    
-}
-
-
 /** copyright **/
 .copy-info{
     color:black;
@@ -168,6 +164,8 @@ p>label{
     padding: 1% 0 1% 2%;
     margin: 0 30% 2% 30%;
 }
+
+
 
 /** Mobile **/
 @media screen and (max-width: 768px){
