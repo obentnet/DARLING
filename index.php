@@ -5,7 +5,7 @@
  * 
  * @package DARLING
  * @author 狱杰1Jnver
- * @version 1.0.1
+ * @version 1.0.2
  * @link https://yujienb.cn/
  */
 
