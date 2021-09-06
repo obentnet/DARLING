@@ -1,16 +1,34 @@
-<?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
-<?php $this->need('header.php'); ?>
-
-    <div class="col-mb-12 col-tb-8 col-tb-offset-2">
-
-        <div class="error-page">
-            <h2 class="post-title">404 - <?php _e('页面没找到'); ?></h2>
-            <p><?php _e('你想查看的页面已被转移或删除了, 要不要搜索看看: '); ?></p>
-            <form method="post">
-                <p><input type="text" name="s" class="text" autofocus /></p>
-                <p><button type="submit" class="submit"><?php _e('搜索'); ?></button></p>
-            </form>
-        </div>
-
-    </div><!-- end #content-->
-	<?php $this->need('footer.php'); ?>
+<?php
+    /** if(!defined('__TYPECHO_ROOT_DIR')) exit; **/
+?>
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>can't found DARLING</title>
+    <style>
+        .main{
+            display: flex;
+            height: 100%;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            text-align: center;
+        }
+        .title{
+            font-size: 200px;
+            margin:0;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <p class="title">404.</p>
+        <p>Zero two can't found Darling,she's verry sad.</p>
+    </div>
+</body>
+</html>
