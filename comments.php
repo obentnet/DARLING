@@ -51,7 +51,7 @@
                         <textarea rows="8" cols="50" name="text" id="textarea" class="textarea" required style="width:100%;"><?php $this->remember('text'); ?></textarea>
                     </p>
                     <p>
-                        <button type="submit" class="submit"><?php _e('提交评论'); ?></button>
+                        <button type="submit" class="submit btn zero-button"><?php _e('提交评论'); ?></button>
                     </p>
                 </form>
             </div>
