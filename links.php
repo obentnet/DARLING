@@ -10,4 +10,15 @@
     * Theme: DARLING
     */
 ?>
-<?php Links_Plugin::output(); ?>
+<?php $this->need('includes/header.php');?>
+<style>
+    .link-page>li{
+        display: flex;
+        max-width: 10px;
+    }
+</style>
+<div class="link-page article-main">
+    <?php Links_Plugin::output();?>
+</div>
+
+<?php $this->need('includes/footer.php');?>
