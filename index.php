@@ -1,17 +1,18 @@
 <?php
 /**
- * Typecho Theme DARLING
+ * A Typecho Theme.
+ * <a href="https://github.com/obentnet/DARLING" target="_blank">项目地址</a> | <a href="https://afdian.net/@obent" target="_blank">购入进阶版</a>
  * 
  * 
  * @package DARLING
  * @author 狱杰1Jnver
- * @version 1.0.2
+ * @version 1.3
  * @link https://yujienb.cn/
  */
 
 
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
-$this->need('header.php');
+$this->need('/includes/header.php');
 ?>
 <?php if ($this->have()): ?>
     <div class="message-container">
@@ -29,4 +30,4 @@ $this->need('header.php');
     </div>
     </div>
 <?php endif;?>
-<?php $this->need('footer.php')?>
+<?php $this->need('/includes/footer.php')?>
