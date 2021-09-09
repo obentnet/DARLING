@@ -1,0 +1,121 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1227",
+      "name": "facebook",
+      "font_class": "facebook",
+      "unicode": "f012a",
+      "unicode_decimal": 983338
+    },
+    {
+      "icon_id": "1387",
+      "name": "github",
+      "font_class": "github",
+      "unicode": "f01ca",
+      "unicode_decimal": 983498
+    },
+    {
+      "icon_id": "34927",
+      "name": "weibo",
+      "font_class": "weibo",
+      "unicode": "e6c4",
+      "unicode_decimal": 59076
+    },
+    {
+      "icon_id": "1262195",
+      "name": "steam-square",
+      "font_class": "steam-square",
+      "unicode": "e70d",
+      "unicode_decimal": 59149
+    },
+    {
+      "icon_id": "3876486",
+      "name": "php",
+      "font_class": "php",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "4936951",
+      "name": "google",
+      "font_class": "google",
+      "unicode": "e87a",
+      "unicode_decimal": 59514
+    },
+    {
+      "icon_id": "4936972",
+      "name": "instagram",
+      "font_class": "instagram",
+      "unicode": "e87f",
+      "unicode_decimal": 59519
+    },
+    {
+      "icon_id": "4936984",
+      "name": "QQ",
+      "font_class": "QQ",
+      "unicode": "e882",
+      "unicode_decimal": 59522
+    },
+    {
+      "icon_id": "4936989",
+      "name": "Youtube-fill",
+      "font_class": "Youtube-fill",
+      "unicode": "e883",
+      "unicode_decimal": 59523
+    },
+    {
+      "icon_id": "4936991",
+      "name": "wechat-fill",
+      "font_class": "wechat-fill",
+      "unicode": "e884",
+      "unicode_decimal": 59524
+    },
+    {
+      "icon_id": "4937037",
+      "name": "zhihu-square-fill",
+      "font_class": "zhihu-square-fill",
+      "unicode": "e893",
+      "unicode_decimal": 59539
+    },
+    {
+      "icon_id": "7008958",
+      "name": "live",
+      "font_class": "live",
+      "unicode": "e708",
+      "unicode_decimal": 59144
+    },
+    {
+      "icon_id": "8777655",
+      "name": "social_twitter",
+      "font_class": "icon-test",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "15838544",
+      "name": "telephone",
+      "font_class": "telephone",
+      "unicode": "e680",
+      "unicode_decimal": 59008
+    },
+    {
+      "icon_id": "16034373",
+      "name": "bilibili-fill",
+      "font_class": "bilibili-fill",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "22908377",
+      "name": "品牌标识_telegram",
+      "font_class": "pinpaibiaoshi_telegram",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    }
+  ]
+}

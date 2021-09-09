@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1630982049988') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\f012a";
+}
+
+.icon-github:before {
+  content: "\f01ca";
+}
+
+.icon-weibo:before {
+  content: "\e6c4";
+}
+
+.icon-steam-square:before {
+  content: "\e70d";
+}
+
+.icon-php:before {
+  content: "\e66c";
+}
+
+.icon-google:before {
+  content: "\e87a";
+}
+
+.icon-instagram:before {
+  content: "\e87f";
+}
+
+.icon-QQ:before {
+  content: "\e882";
+}
+
+.icon-Youtube-fill:before {
+  content: "\e883";
+}
+
+.icon-wechat-fill:before {
+  content: "\e884";
+}
+
+.icon-zhihu-square-fill:before {
+  content: "\e893";
+}
+
+.icon-live:before {
+  content: "\e708";
+}
+
+.icon-icon-test:before {
+  content: "\e65e";
+}
+
+.icon-telephone:before {
+  content: "\e680";
+}
+
+.icon-bilibili-fill:before {
+  content: "\e62a";
+}
+
+.icon-pinpaibiaoshi_telegram:before {
+  content: "\e658";
+}
+
