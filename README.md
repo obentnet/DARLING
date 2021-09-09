@@ -13,5 +13,19 @@
 ## 开源
 采用MIT开源协议进行授权，请在本基础上保留原作者注释的版权等等
 
-## 感谢
-制作不易，给个Star呗~
+## 鸣谢
+制作不易，点个star支持下呗q(≧▽≦q)
+
+[爱发电](https://afdian.com/@obent)
+
+### 感谢参与
+[奇趣宝罗](https://paugram.com/)
+
+### 感谢开源项目
+
+ - iconfont
+
+ - font-awesome
+
+## 演示站点
+[狱杰的博客](https://yujienb.cn/)
