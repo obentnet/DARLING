@@ -1,4 +1,9 @@
 @charset "UTF-8";
+    /**
+    * Made with love By 狱杰1Jnver
+    * Link: https://yujienb.cn/
+    * Theme: DARLING
+    */
 ::-webkit-scrollbar {
 	width:8px;
 	height:8px
@@ -9,24 +14,29 @@
 ::-webkit-scrollbar-thumb:hover {
 	background:rgb(123,220,240);
 }
-
 html{
     height: 100%;
     display: block;
     font:16px/1.5 'Microsoft Yahei','PingFang SC','Hiragino Sans GB',sans-serif
 }
 body{
+    z-index: 20;
     box-sizing: border-box;
     min-height: 100%;
     display: flex;
     flex-direction: column;
     color: white;
     font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: rgb(44, 44, 50);
+    background-color: rgb(248, 248, 248);
     background-attachment: fixed;
     background-size: cover;
     margin: 0px;
     padding: 15px 30px;
+}
+.bg{
+    height: 100%;
+    width: 100%;
+    z-index: 10;
 }
 .header-title{
     color: white;
@@ -76,25 +86,31 @@ article{
     text-decoration: none;
     transition: all .3s;
 }
+
 .categroy-a-link-index>a:hover{
     color: rgb(123,220,240);
 }
+
 .categroy-a-link>a{
     color:black;
     text-decoration: none;
     transition: all .3s;
 }
+
 .categroy-a-link>a:hover{
     color: rgb(123,220,240);
 }
+
 .post-link:hover{
     color: rgb(123,220,240);
 }
+
 footer{
     text-align: center;
     display: flex;
     justify-content: center;
 }
+
 /** post **/
 .article-main{
     padding: 2%;
@@ -106,17 +122,21 @@ footer{
     flex-direction: column;
     margin: 2% 30%;
 }
+
 .article-main>p>a{
     color: #FF4081;
     text-decoration: none;
     transition: all .3s;
 }
+
 .article-main>p>a:hover{
     color: rgb(123, 220,240);
 }
+
 .article-main>p>img{
     width: 100%;
 }
+
 .post-info>h1{
     margin:0;
     border-bottom: solid 2px rgb(123,220,240);
@@ -132,15 +152,16 @@ footer{
     margin: 0 30%;
     margin-bottom: 2%;
 }
+
 .fn>a,.comment-meta>a,.comment-reply>a{
     color:black;
     text-decoration: none;
     transition: all .3s;
 }
+
 .fn>a,.comment-meta>:hover{
     color: rgb(123,220,240);
 }
-
 
 /** repeat comments **/
 .repeat-comments{
@@ -151,10 +172,12 @@ footer{
     margin: 0 30%;
     margin-bottom: 2%;
 }
+
 .respond>form>p>a{
     color:black;
     text-decoration: none;
 }
+
 /** copyright **/
 .copy-info{
     color:black;
@@ -164,7 +187,19 @@ footer{
     margin: 0 30% 2% 30%;
 }
 
+.next,.prev{
+    padding: 0.5em 1em;
+}
 
+.prev:hover{
+    color: black;
+    background-color: skyblue;
+}
+
+.next:hover{
+    color: black;
+    background-color: skyblue;
+}
 
 /** Mobile **/
 @media screen and (max-width: 768px){
@@ -172,6 +207,7 @@ footer{
         background-attachment: fixed;
         background-size: 100%;
         background-repeat: no-repeat;
+        padding: 15px 5px;
    }
    .message-container{
        margin:0;
@@ -190,5 +226,8 @@ footer{
    }
    p>textarea{
        width: 95%;
+   }
+   .copy{
+       color: black;
    }
 }
