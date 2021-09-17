@@ -20,6 +20,7 @@
         ), '', ' - '); ?><?php $this->options->title(); ?></title>
     <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css')?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('includes/DARLING.css')?>">
+    <?php $this->need('includes/auto-echo.php');?>
     <!--Favicon-->
     <?php if ($this->options->favicon): ?>
     <link rel="shortcut icon" href="<?php $this->options->favicon();?>" type="image/x-icon">
@@ -27,31 +28,6 @@
     <link rel="shortcut icon" href="<?php $this->options->global_favicon();?>" type="image/x-icon">
     <?php endif;?>
     <?php $this->header(); ?>
-    <style>
-        /** 全局字体粗细 */
-        html{font-weight: <?php $this->options->fontweight(); ?>;}
-        /** 电脑端背景 */
-        <?php if($this->options->custom_pc_background):?>
-        body{
-            background-image: url(<?php $this->options->custom_pc_background();?>);
-            filter: opacity(10%);
-        }
-        <?php else:?>
-            body{
-            background-image: url(<?php $this->options->themeUrl('/images/bg.png')?>);
-        }
-        <?php endif;?>
-        /** 移动端背景 */
-        <?php if($this->options->custom_mobile_background):?>
-        @media screen and (max-width: 768px){
-            body{background-image: url(<?php $this->options->custom_mobile_background();?>);}
-        }
-        <?php else:?>
-        @media screen and (max-width: 768px){
-            body{background-image: url(<?php $this->options->themeUrl('images/bg-mobile.png')?>);}
-        }
-        <?php endif;?>
-    </style>
     <?php if($this -> options -> custom_css): ?>
         <style><?php $this -> options -> custom_css(); ?></style>
     <?php endif; ?>

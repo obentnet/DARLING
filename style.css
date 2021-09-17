@@ -33,6 +33,15 @@ body{
     margin: 0px;
     padding: 15px 30px;
 }
+
+.article-main>h2::before{
+    content: ' ';
+    background-color: #6f9fc7;
+    height: 100%;
+    width: .5rem;
+    left: -1.5rem;
+}
+
 .bg{
     height: 100%;
     width: 100%;
