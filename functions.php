@@ -38,7 +38,7 @@ function themeConfig($form) {
    $form -> addInput($global_favicon);
 
    // 自定义标语
-   $custom_des = new Typecho_Widget_Helper_Form_Element_Text('custom_des',NULL,'Have a nice life.',_t('自定义标志语'), _t('名人名言我觉得不错哟'));
+   $custom_des = new Typecho_Widget_Helper_Form_Element_Text('custom_des',NULL,'不要把世界让你给你讨厌的人',_t('自定义标志语'), _t('名人名言我觉得不错哟'));
    $form-> addInput($custom_des);
 
    // 自定义电脑端背景
