@@ -6,6 +6,9 @@
     */
 
 /** 组件 **/
+
+
+
 .zero-a{
     color: #FF4081;
     text-decoration: none;
@@ -16,6 +19,7 @@
 }
 
 blockquote{
+    margin: 0;
     padding-left: 1%;
     background-color: #36373c40;
 }
