@@ -19,7 +19,7 @@ $this->need('/includes/header.php');
     <?php while($this->next()): ?>	
         <article>
             <div class="article-info">
-                <p><a href="<?php $this->permalink() ?>" class="post-link"><?php $this->title() ?></a></p>
+                <p><a href="<?php $this->permalink() ?>" class="post-link bmxy"><?php $this->title() ?></a></p>
                 <div class="state"><?php $this->date(); ?> | <span class="categroy-a-link-index"><?php $this->category(','); ?></span> | <?php $this->commentsNum('暂无评论~', '1 条评论', '%d 条评论'); ?></div>
             </div>
         </article>

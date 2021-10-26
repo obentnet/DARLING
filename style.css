@@ -48,8 +48,10 @@ body{
     z-index: 10;
 }
 .header-title{
+    letter-spacing: 2px;
+    font-family: pmzd;
     color: white;
-    font-size: 18px;
+    font-size: 1.5em;
     text-decoration: none;
 }
 .simple-a{
@@ -74,6 +76,7 @@ article{
     margin:0;
 }
 .post-link{
+    font-family: bmxy;
     color:white;
     text-decoration: none;
     transition: all .3s;

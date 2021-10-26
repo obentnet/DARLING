@@ -7,7 +7,15 @@
 
 /** 组件 **/
 
-
+.font-pmzd{
+    font-family: pmzd;  /* 庞门正道 */
+}
+.font-hksnt{
+    font-family: hksnt; /* 华康少女体 */
+}
+.font-bmxy{
+    font-family: bmxy;  /* 本墨绪圆 */
+}
 
 .zero-a{
     color: #FF4081;
